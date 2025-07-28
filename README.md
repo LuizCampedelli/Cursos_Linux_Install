@@ -32,25 +32,28 @@ Before running the script, ensure you have:
 1.  **Clone this repository or download the script:**
 
     ```bash
-    git clone [https://github.com/LuizCampedelli/cursor-linux-install.git](https://github.com/LuizCampedelli/cursor-linux-install.git)
-    cd cursor-linux-install
+    git clone [https://github.com/LuizCampedelli/Cursos_Linux_Install.git](https://github.com/LuizCampedelli/Cursos_Linux_Install.git)
+    cd Cursor_Linux_Install
     ```
-    (Replace `YOUR_USERNAME` with your GitHub username if you fork it)
-
-    Alternatively, just download the `installCursor.sh` script directly.
 
 2.  **Make the script executable:**
 
     ```bash
-    chmod +x installCursor.sh
+    chmod +x cursor_install.sh
     ```
 
 3.  **Run the script:**
 
     ```bash
-    ./installCursor.sh
+    ./cursor_install.sh
     ```
 
 4.  **Follow the prompts:** The script will ask you to enter the full filename of the Cursor AppImage located in your `Downloads` folder. For example, if your downloaded file is named `Cursor-1.2.1-x86_64.AppImage`, type that in.
+
+5. **In the end, type the command to refresh desktop database:**
+    
+    ```bash
+    sudo update-desktop-database
+    ```
 
 ### Example Output (Successful Installation)
