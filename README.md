@@ -58,11 +58,36 @@ Before running the script, ensure you have:
 
 ### Example Output (Successful Installation):
 
-![Cursor_Install]<img width="1457" height="267" alt="cursor_1" src="https://github.com/user-attachments/assets/66f29c53-9e36-44aa-a4d7-7b7754a012eb" />
+<img width="1457" height="267" alt="cursor_1" src="https://github.com/user-attachments/assets/66f29c53-9e36-44aa-a4d7-7b7754a012eb" />
 
+### Checking the instalation:
+
+    ```bash
+    ls -l /usr/share/applications/cursor.desktop
+    ```
+
+    ```bash
+    cat /usr/share/applications/cursor.desktop
+    ```
+
+    ```bash
+    ls -l /opt/cursor.appimage
+    ```
+
+#### Outputs in the image bellow:
 
 <img width="789" height="248" alt="cursor_2" src="https://github.com/user-attachments/assets/63b07e5f-ecc3-4e26-8c73-c46842f7eb4b" />
 
+#### Optional install, if apparmor code in the script, fails:
+
+    ```bash
+    chmod +x apparmor_script.sh
+    ```
+
+    ```bash
+    ./apparmor_script.sh
+    ```
 
 <img width="900" height="148" alt="cursor_armor" src="https://github.com/user-attachments/assets/99f873d3-06cf-4e34-8352-89f921515d4f" />
 
+Thats it. Enjoy
